@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Social Media Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Le **Social Media Dashboard** est une application moderne qui permet aux utilisateurs de suivre les statistiques de leurs comptes de médias sociaux en un seul endroit. Conçue pour être intuitive et esthétique, cette application offre des outils de visualisation puissants et une interface adaptée aux besoins des utilisateurs.
 
-## Available Scripts
+## Fonctionnalités
 
-In the project directory, you can run:
+- **Suivi des Statistiques** : Obtenez une vue d'ensemble des principales métriques de vos comptes de médias sociaux, y compris les followers, les likes, les vues, etc.
+- **Authentification OAuth** : Connectez-vous de manière sécurisée via les plateformes de médias sociaux pour accéder à vos données personnelles.
+- **Visualisation des Données** : Visualisez vos statistiques sous forme de graphiques dynamiques à l'aide de Chart.js pour suivre les tendances et la croissance de vos comptes.
+- **Interface Utilisateur Moderne** : Une interface utilisateur conviviale, incluant le mode sombre, adaptée pour améliorer l'expérience de l'utilisateur.
+- **Vue Consolidée** : Centralisez vos différents comptes sociaux et accédez à toutes vos métriques importantes depuis un tableau de bord unique.
 
-### `npm start`
+## Technologies Utilisées
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React** : Utilisé pour la création de l'interface utilisateur réactive et composable.
+- **Tailwind CSS** : Pour un style moderne et adapté, permettant de construire une interface esthétique avec des classes prédéfinies.
+- **Chart.js** : Pour la visualisation de données, offrant des graphiques intuitifs et clairs.
+- **OAuth** : Authentification sécurisée pour connecter vos comptes sociaux.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clonez le repository :
+   ```bash
+   git clone https://github.com/votre-nom-utilisateur/social-media-dashboard.git
+   ```
+2. Naviguez dans le dossier du projet :
+   ```bash
+   cd social-media-dashboard
+   ```
+3. Installez les dépendances :
+   ```bash
+   npm install
+   ```
+4. Démarrez l'application :
+   ```bash
+   npm start
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Utilisation
 
-### `npm run build`
+- Connectez-vous via Instagram pour autoriser l'application à récupérer vos métriques.
+- Accédez à vos statistiques de followers, likes et autres métriques via le tableau de bord central.
+- Activez le mode sombre pour une expérience utilisateur adaptée à vos préférences.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contribution
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Les contributions sont les bienvenues ! N'hésitez pas à proposer de nouvelles fonctionnalités, émettre des suggestions ou corriger des problèmes via des Pull Requests.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Remerciements
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Merci à tous ceux qui ont contribué à la création de cette application et à la communauté des développeurs pour leur soutien continu.
