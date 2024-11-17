@@ -1,5 +1,5 @@
 import React from "react";
-import LoginButton from "./LoginButton";
+import LoginButton from "./components/LoginButton";
 
 function App() {
     return (
@@ -11,3 +11,4 @@ function App() {
 }
 
 export default App;
+
