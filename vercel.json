@@ -4,10 +4,6 @@
       {
         "src": "server.js",
         "use": "@vercel/node"
-      },
-      {
-        "src": "src/**/*",
-        "use": "@vercel/static"
       }
     ],
     "routes": [
@@ -18,10 +14,6 @@
       {
         "src": "/auth/callback",
         "dest": "/server.js"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/index.html"
       }
     ]
   }
